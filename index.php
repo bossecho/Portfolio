@@ -441,94 +441,147 @@
     </div>
   </section>
 
-  <!-- Education Section -->
-  <section id="education" class="py-24 relative">
-    <div class="container mx-auto px-6 relative z-10">
-      <div class="text-center mb-16 scroll-fade">
-        <span class="inline-block px-4 py-2 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold mb-4">
-          ACADEMIC JOURNEY
-        </span>
-        <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Education Timeline</h2>
-        <p class="text-gray-400 max-w-2xl mx-auto">My academic journey through the years 🎓</p>
-      </div>
+<!-- Education Section -->
+<section id="education" class="py-24 relative">
+  <div class="container mx-auto px-6 relative z-10">
+    <div class="text-center mb-16 scroll-fade">
+      <span class="inline-block px-4 py-2 rounded-full bg-blue-500/20 text-blue-300 text-sm font-semibold mb-4">
+        ACADEMIC JOURNEY
+      </span>
+      <h2 class="text-4xl md:text-5xl font-bold gradient-text mb-4">Education Timeline</h2>
+      <p class="text-gray-400 max-w-2xl mx-auto">My academic journey through the years 🎓</p>
+    </div>
 
-      <div class="max-w-3xl mx-auto">
-        <!-- Timeline -->
-        <div class="relative">
-          <!-- Timeline line -->
-          <div class="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-500 via-cyan-500 to-purple-500"></div>
-          
-          <!-- College -->
-          <div class="relative mb-12 scroll-fade">
-            <div class="flex flex-col md:flex-row items-center">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center z-10">
-                <span class="text-white font-bold">4</span>
+    <div class="max-w-4xl mx-auto">
+      <!-- Enhanced Timeline -->
+      <div class="relative">
+        <!-- Timeline line - centered for all screen sizes -->
+        <div class="absolute left-6 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 md:w-1 bg-gradient-to-b from-blue-500 via-cyan-500 to-purple-500"></div>
+        
+        <!-- College -->
+        <div class="relative mb-12 scroll-fade">
+          <div class="flex flex-col md:flex-row items-start md:items-center">
+            <!-- Timeline dot and number - positioned absolutely for mobile, relative for desktop -->
+            <div class="absolute md:relative left-0 md:left-auto w-full md:w-auto flex md:block justify-center md:justify-start">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center z-10 border-4 border-gray-900 shadow-lg">
+                <span class="text-white font-bold text-lg">4</span>
               </div>
-              <div class="md:ml-8 md:w-5/12"></div>
-              <div class="mt-4 md:mt-0 md:ml-8 md:w-5/12">
-                <div class="p-6 rounded-2xl glass border border-blue-500/30">
-                  <h3 class="text-2xl font-bold text-blue-400">Bestlink College of the Philippines</h3>
-                  <p class="text-gray-400 italic">4th Year IT Student (Present)</p>
-                  <p class="mt-3 text-gray-300">Pursuing Bachelor's degree in Information Technology, focusing on software development, system design, and web technologies.</p>
+            </div>
+            
+            <!-- Content container with proper spacing -->
+            <div class="w-full md:w-5/12 mt-0 md:mt-0 md:ml-12">
+              <div class="p-6 rounded-2xl glass border border-blue-500/30 shadow-lg">
+                <!-- Year indicator -->
+                <div class="flex items-center justify-between mb-3">
+                  <span class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-medium">
+                    2021 - Present
+                  </span>
+                  <span class="text-sm text-gray-400">College</span>
                 </div>
+                <h3 class="text-xl md:text-2xl font-bold text-blue-400 mb-2">Bestlink College of the Philippines</h3>
+                <p class="text-gray-400 italic mb-3">4th Year IT Student</p>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed">Pursuing Bachelor's degree in Information Technology, focusing on software development, system design, and web technologies.</p>
+              </div>
+            </div>
+            
+            <!-- Spacer for desktop -->
+            <div class="hidden md:block md:w-5/12"></div>
+          </div>
+        </div>
+
+        <!-- Senior High -->
+        <div class="relative mb-12 scroll-fade">
+          <div class="flex flex-col md:flex-row items-start md:items-center">
+            <!-- Spacer for desktop -->
+            <div class="hidden md:block md:w-5/12"></div>
+            
+            <!-- Timeline dot and number -->
+            <div class="absolute md:relative left-0 md:left-auto w-full md:w-auto flex md:block justify-center md:justify-end">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center z-10 border-4 border-gray-900 shadow-lg">
+                <span class="text-white font-bold text-lg">3</span>
+              </div>
+            </div>
+            
+            <!-- Content container -->
+            <div class="w-full md:w-5/12 mt-0 md:mt-0 md:mr-12">
+              <div class="p-6 rounded-2xl glass border border-green-500/30 shadow-lg">
+                <div class="flex items-center justify-between mb-3">
+                  <span class="px-3 py-1 rounded-full bg-green-500/20 text-green-300 text-xs font-medium">
+                    2019 - 2021
+                  </span>
+                  <span class="text-sm text-gray-400">Senior High</span>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-green-400 mb-2">Asia Pacific School of Arts & Sciences</h3>
+                <p class="text-gray-400 italic mb-3">ICT Strand</p>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed">Specialized in Information and Communications Technology, building strong foundation in programming and IT fundamentals.</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Senior High -->
-          <div class="relative mb-12 scroll-fade">
-            <div class="flex flex-col md:flex-row items-center">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center z-10">
-                <span class="text-white font-bold">3</span>
-              </div>
-              <div class="mt-4 md:mt-0 md:ml-8 md:w-5/12 order-first md:order-none">
-                <div class="p-6 rounded-2xl glass border border-green-500/30">
-                  <h3 class="text-2xl font-bold text-green-400">Asia Pacific School of Arts and Sciences</h3>
-                  <p class="text-gray-400 italic">Senior High School – ICT Strand</p>
-                  <p class="mt-3 text-gray-300">Specialized in Information and Communications Technology, building strong foundation in programming and IT fundamentals.</p>
-                </div>
-              </div>
-              <div class="md:ml-8 md:w-5/12"></div>
-            </div>
-          </div>
-
-          <!-- Junior High -->
-          <div class="relative mb-12 scroll-fade">
-            <div class="flex flex-col md:flex-row items-center">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-500 to-amber-500 flex items-center justify-center z-10">
-                <span class="text-white font-bold">2</span>
-              </div>
-              <div class="md:ml-8 md:w-5/12"></div>
-              <div class="mt-4 md:mt-0 md:ml-8 md:w-5/12">
-                <div class="p-6 rounded-2xl glass border border-yellow-500/30">
-                  <h3 class="text-2xl font-bold text-yellow-400">Ernesto Rondon High School</h3>
-                  <p class="text-gray-400 italic">Junior High School</p>
-                  <p class="mt-3 text-gray-300">Completed junior high school education with focus on academics and extracurricular activities.</p>
-                </div>
+        <!-- Junior High -->
+        <div class="relative mb-12 scroll-fade">
+          <div class="flex flex-col md:flex-row items-start md:items-center">
+            <!-- Timeline dot and number -->
+            <div class="absolute md:relative left-0 md:left-auto w-full md:w-auto flex md:block justify-center md:justify-start">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-yellow-500 to-amber-500 flex items-center justify-center z-10 border-4 border-gray-900 shadow-lg">
+                <span class="text-white font-bold text-lg">2</span>
               </div>
             </div>
-          </div>
-
-          <!-- Elementary -->
-          <div class="relative scroll-fade">
-            <div class="flex flex-col md:flex-row items-center">
-              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center z-10">
-                <span class="text-white font-bold">1</span>
-              </div>
-              <div class="mt-4 md:mt-0 md:ml-8 md:w-5/12 order-first md:order-none">
-                <div class="p-6 rounded-2xl glass border border-purple-500/30">
-                  <h3 class="text-2xl font-bold text-purple-400">Project 6 Elementary School</h3>
-                  <p class="text-gray-400 italic">Elementary</p>
-                  <p class="mt-3 text-gray-300">Where my academic journey began, shaping early love for learning and curiosity.</p>
+            
+            <!-- Content container -->
+            <div class="w-full md:w-5/12 mt-0 md:mt-0 md:ml-12">
+              <div class="p-6 rounded-2xl glass border border-yellow-500/30 shadow-lg">
+                <div class="flex items-center justify-between mb-3">
+                  <span class="px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-300 text-xs font-medium">
+                    2015 - 2019
+                  </span>
+                  <span class="text-sm text-gray-400">Junior High</span>
                 </div>
+                <h3 class="text-xl md:text-2xl font-bold text-yellow-400 mb-2">Ernesto Rondon High School</h3>
+                <p class="text-gray-400 italic mb-3">Junior High School</p>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed">Completed junior high school education with focus on academics and extracurricular activities.</p>
               </div>
-              <div class="md:ml-8 md:w-5/12"></div>
+            </div>
+            
+            <!-- Spacer for desktop -->
+            <div class="hidden md:block md:w-5/12"></div>
+          </div>
+        </div>
+
+        <!-- Elementary -->
+        <div class="relative scroll-fade">
+          <div class="flex flex-col md:flex-row items-start md:items-center">
+            <!-- Spacer for desktop -->
+            <div class="hidden md:block md:w-5/12"></div>
+            
+            <!-- Timeline dot and number -->
+            <div class="absolute md:relative left-0 md:left-auto w-full md:w-auto flex md:block justify-center md:justify-end">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center z-10 border-4 border-gray-900 shadow-lg">
+                <span class="text-white font-bold text-lg">1</span>
+              </div>
+            </div>
+            
+            <!-- Content container -->
+            <div class="w-full md:w-5/12 mt-0 md:mt-0 md:mr-12">
+              <div class="p-6 rounded-2xl glass border border-purple-500/30 shadow-lg">
+                <div class="flex items-center justify-between mb-3">
+                  <span class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-medium">
+                    2009 - 2015
+                  </span>
+                  <span class="text-sm text-gray-400">Elementary</span>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-purple-400 mb-2">Project 6 Elementary School</h3>
+                <p class="text-gray-400 italic mb-3">Elementary</p>
+                <p class="text-gray-300 text-sm md:text-base leading-relaxed">Where my academic journey began, shaping early love for learning and curiosity.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Hobbies Section -->
   <section id="hobbies" class="py-24 relative">
